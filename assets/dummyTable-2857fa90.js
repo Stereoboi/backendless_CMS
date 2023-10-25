@@ -1,0 +1,1 @@
+import{j as e}from"./index-d83a5fb8.js";function t(){return e.jsx("table",{children:e.jsx("tbody",{children:e.jsxs("tr",{children:[e.jsx("td",{children:"Dummy"}),e.jsx("td",{children:"Tsable"})]})})})}export{t as default};
