@@ -1,0 +1,1 @@
+import{j as s}from"./index-135c72d6.js";import{T as e,a,b as i,c as r}from"./tables.styled-2460f92f.js";function n(){return s.jsx(e,{children:s.jsx(a,{children:s.jsxs(i,{children:[s.jsx(r,{children:"Dummy"}),s.jsx(r,{children:"Tsable"})]})})})}export{n as default};

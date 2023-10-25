@@ -1,4 +1,4 @@
-import{s as d}from"./index-f9e6b7be.js";const s=d.table`
+import{s as d}from"./index-135c72d6.js";const s=d.table`
   border: 1px solid #ddd;
   border-collapse: collapse;
 
