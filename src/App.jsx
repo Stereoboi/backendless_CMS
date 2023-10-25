@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        "https://raw.githubusercontent.com/Stereoboi/backendless_CMS/main/publick/tabs.json"
+        "https://raw.githubusercontent.com/Stereoboi/backendless_CMS/main/public/tabs.json"
       )
       .then((response) => {
         const sortedData = response.data.sort((a, b) => a.order - b.order);
