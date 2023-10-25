@@ -1,12 +1,14 @@
+import { Table, TBody, TR, TD } from "./tables.styled";
+
 export default function DummyChart() {
   return (
-    <table>
-      <tbody>
-        <tr>
-          <td>Dummy</td>
-          <td>Chart</td>
-        </tr>
-      </tbody>
-    </table>
+    <Table>
+      <TBody>
+        <TR>
+          <TD>Dummy</TD>
+          <TD>Chart</TD>
+        </TR>
+      </TBody>
+    </Table>
   );
 }

@@ -10,12 +10,10 @@ function App() {
   const navigate = useNavigate();
   const [tabsData, setTabsData] = useState([]);
   const [dataLoaded, setDataLoaded] = useState(false);
-
+  // https://raw.githubusercontent.com/Stereoboi/backendless_CMS/main/public/tabs.json
   useEffect(() => {
     axios
-      .get(
-        "https://raw.githubusercontent.com/Stereoboi/backendless_CMS/main/public/tabs.json"
-      )
+      .get("/tabs.json")
       .then((response) => {
         const sortedData = response.data.sort((a, b) => a.order - b.order);
         setTabsData(sortedData);
